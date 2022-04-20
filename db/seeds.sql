@@ -8,12 +8,12 @@ INSERT INTO department (dept_name)
 INSERT INTO role (title, salary, dept_id)
     VALUES
         ('Salesperson', 60000, 1),
-        ('Lead Engineer', 120000, 1),
+        ('Lead Engineer', 120000, 2),
         ('Software Engineer', 100000, 2),
-        ('Account Manager', 150000, 2),
+        ('Account Manager', 150000, 3),
         ('Accountant', 125000, 3),
-        ('Legal Team Manager', 260000, 3),
-        ('Lawyer', 175000, 2);
+        ('Legal Team Manager', 260000, 4),
+        ('Lawyer', 175000, 4);
 
         
 
